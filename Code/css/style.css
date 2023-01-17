@@ -1,0 +1,380 @@
+/* ============ Default CSS========== */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';  
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.col-1{
+    width:8.33%;
+}
+.col-2{
+    width:16.66%;
+}
+.col-3{
+    width:25%;
+}
+.col-4{
+    width:33.33%;
+}
+.col-5{
+    width:41.66%;
+}
+.col-6{
+    width:50%;
+}
+.col-7{
+    width:58.33%
+}
+.col-8{
+    width:66.66%;
+}
+.col-9{
+    width:75%;
+}
+.col-10{
+    width:83.33%;
+}
+.col-11{
+    width:91.66;
+}
+.col-12{
+    width:100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* ======= About ====== */
+
+.about{
+    padding: 140px 0;
+    background-color: var(--bg-light-blue);
+}
+.about .row{
+    align-items: center;
+}
+.about .heading h2{
+    font-size: 56px;
+    font-weight: 500;
+    max-width: 100%;
+    color: var(--heading-dark);
+    letter-spacing: -1.4px;
+    line-height: 67.2px;
+}
+.about-data p{
+    font-size: 18px;
+    color: var(--text-grey);
+    margin-bottom: 30px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+.about .about-form{
+    background-color: var(--white);
+    padding: 50px;
+    border-radius: 30px;
+    margin-left: 140px;
+}
+.about .about-form h2{
+    font-size: 40px;
+    font-family: var(--dm-sans);
+    color: var(--heading-dark);
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+.about .about-form .field{
+    margin-bottom: 20px;
+}
+.about .about-form .field label{
+    font-size: 14px;
+    color: #27272e;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 500;
+}
+.about .about-form .field input{
+    width: 100%;
+    border: 1px solid #ecf2f6;
+    border-radius: 16px;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+.about .about-form .field input::placeholder{
+    opacity: 0.6;
+}
+.about .about-form .field button{
+    width: 100%;
+    border: none;
+    display: inline-block;
+    padding: 18px 55px;
+    transition: all .5s;
+}
+.about .about-form .field button:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+/* ======== Feature ======= */
+
+.feature{
+    padding: 140px 0 110px;
+    background-color: var(--bg-dark);
+}
+.feature .heading{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+.feature .heading h2{
+    font-size: 56px;
+    color: var(--white);
+    max-width: 100%;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.feature .heading p{
+    max-width: 40%;
+    margin: 0 auto;
+}
+.feature-card{
+    text-align: center;
+    padding: 70px 20px 60px;
+    border-radius: 30px;
+    transition: all 1s;
+    margin: 0 25px;
+}
+.feature-card i{
+    font-size: 32px;
+    color: var(--white);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.feature-card:hover{
+    background: linear-gradient(180deg,#27272e,#303035);
+    color: #fff;
+    cursor: pointer;
+}
+.feature-card h2{
+    font-size: 64px;
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.feature-card p{
+    font-size: 20px;
+    color: var(--white);
+    margin-bottom: 30px;
+    font-family: var(--dm-sans);
+    font-weight: 500;
+}
+
+/* ======== Plan ======= */
+
+.plan{
+    padding: 140px 0 110px;
+    background-color: var(--bg-light-blue);
+}
+.plan .heading{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+.plan .heading h2{
+    font-size: 50px;
+    color: var(--heading-dark);
+    max-width: 100%;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.plan .heading p{
+    color: var(--text-grey);
+    font-size: 18px;
+    margin: 0 322.5px 40px;
+}
+.billed{
+    text-align: center;
+}
+.billed ul{
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 60px;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--white);
+    border: 1px solid #e3e6e9;
+    border-radius: 110px;
+}
+.billed ul .nav-item{
+    margin-right: 10px;
+}
+.billed ul .nav-link{
+    color: var(--heading-dark);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--dm-sans);
+    background-color: transparent;
+    border: none;
+    border-radius: 60px;
+    padding: 14px 30px;
+}
+.billed ul .nav-link.nav-link-1{
+    background-color: var(--primary);
+    color: var(--white);
+}
+.pricing-table{
+    border: 1px solid #e3e6e9;
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 30px;
+    transition: all .5s;
+    margin-right: 15px;
+}
+.pricing-table:hover{
+    background-color: var(--primary);
+    color: #fff;
+}
+.pricing-table .pricing-header{
+    text-align: center;
+}
+.pricing-table .pricing-header .title{
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: var(--dm-sans);
+    margin-bottom: 8px;
+    letter-spacing: -1.8px;
+    transition: all .5s;
+}
+.pricing-table:hover .pricing-header .title{
+    color: var(--white);
+}
+.pricing-table .pricing-header .subtitle{
+    font-size: 14px;
+    color: var(--heading-dark);
+    transition: all .5s;
+    margin-bottom: 20px;
+}
+.pricing-table:hover .pricing-header .subtitle{
+    color: var(--white);
+}
+.pricing-table .pricing-header .price-wrap{
+    border-top: 1px solid #e3e6e9;
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: var(--dm-sans);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+.pricing-table .pricing-header .price-wrap .yearly-pricing{
+    display: flex;
+}
+.pricing-table .pricing-header .price-wrap .amount{
+    font-size: 64px;
+    line-height: 64px;
+    color: var(--heading-dark);
+    font-weight: 500;
+    font-family: var(--dm-sans);
+    transition: all .5s;
+}
+.pricing-table:hover .pricing-header .price-wrap .amount{
+    color: var(--white);
+}
+.pricing-table .pricing-header .price-wrap .duration{
+    font-size: 14px;
+    font-weight: 500;
+    color: #999fae;
+    margin-left: 8px;
+    transition: all .5s;
+    margin-top: 40px;
+}
+.pricing-table:hover .pricing-header .price-wrap .duration{
+    color: var(--white);
+}
+.pricing-table .pricing-header .price-btn .get-btn{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.64px;
+    padding: 18px 55px;
+    border-radius: 20px;
+    height: auto;
+    transition: all .5s;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+.pricing-table .pricing-header .price-btn .get-btn:hover{
+    background-color: #ffdc60;
+    color: #fff;
+}
+.get-btn.btn-large{
+    padding: 23px 55px;
+    margin-top: 20px;
+}
+.get-btn.btn-border{
+    border: 1px solid #99a1aa;
+    color: var(--bg-dark);
+    background-color: transparent;
+}
+.pricing-table .pricing-body{
+    margin-top: 30px;
+}
+.pricing-table .pricing-body .list-unstyle{
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+.pricing-table .pricing-body .list-unstyle li{
+    color: var(--text-grey);
+    opacity: .5;
+}
+.pricing-table:hover .pricing-body .list-unstyle li{
+    color: var(--white);
+    opacity: 1;
+}
+.pricing-table .pricing-body .list-unstyle li .fa-check{
+    color: var(--text-grey);
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 15px;
+}
+.pricing-table:hover .pricing-body .list-unstyle li .fa-check{
+    color: var(--white);
+}
+.pricing-table .pricing-body .list-unstyle li p{
+    padding: 10px 0;
+}
